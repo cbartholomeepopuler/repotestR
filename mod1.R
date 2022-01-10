@@ -6,7 +6,8 @@ library(prettyR)
 library(psych)
 library(dplyr)
 library(mgcv)
-library(ResourceSelection) 
+library(ResourceSelection)
+library(usethis)
 
 ### Selection des veaux allaintants dans le tableau de donnees
 
@@ -338,5 +339,5 @@ ORcsup<-exp(COEFc[-1]+1.96*STDc[-1])
 ORcsup
 
 
-
+librabry(usethis)
 
